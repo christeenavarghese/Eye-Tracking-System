@@ -49,10 +49,21 @@ python -m pip install openpyxl
 ```shell
 python combine_all_final.py
 ```
-8. Running the data processing part
+8. Login to the page, if no login information create new account.
+9. Choose 'Start Therapy', choose the cartoon character, movement and the speed of the movement
+10. Press 'Run'
+11. Guide your left eye into fitting the top left window named 'eye' screen. Make sure that your whole eye fits between the 2 pink diamonds in the screen.
+12. Maintain head orientation and position as shown on top right window named 'head tracking' screen. Try to be as perpendicular as possible to the screen of the laptop. It will show 'GOOD!' when you are in perfect orientation. 
+13. Maintain both eye position and head orientation through out the session of the game. 
+14. Stop the tracking system by pressing 'Esc' button in your laptop.
+15. You can save the plotting of the position of the eye (left eye) relative to the screen by clicking the save button when the graph pops up.
+16. Close the cartoon character moving window and the character choosing window. 
+17. Logout from the System. 
+18. Running the data processing part
 ```shell
 python data_processing.py
 ```
+20. The performance graph can be saved using the save button. 
 
 # Complete Overview
 The eye tracking application consist of 4 main parts: 

@@ -44,7 +44,8 @@ python -m pip install openpyxl
 ```
 4. Press y and confirm when prompted
 5. Make sure that all the dependencies are installed properly
-6. Running the eye tracking and game part (again copy paste to terminal)
+6. Download trained dataset (shape_predictor_68_face_landmarks.dat) from this webpage (https://github.com/davisking/dlib-models/blob/master/shape_predictor_68_face_landmarks.dat.bz2). Click download, extract and put it inside gaze_tracking folder.
+7. Running the eye tracking and game part (again copy paste to terminal)
 ```shell
 python combine_all_final.py
 ```

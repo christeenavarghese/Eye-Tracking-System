@@ -1,6 +1,17 @@
 # Eye_Tracking_Project_Module
 This is the project files for project module of THWS MAI (2022-2023). The application is build to help parents of children with special needs such as Autism Spectrum Disorder (ASD) to have a portable eye tracking application that is integrated with a game and can produce data representation that can track the User's condition.  The hardware required to run this Application must be affordable and preferably laptops with built-in webcams. 
 
+# Contributors and Special Thanks
+This project will not be possible with the other members of the group: 
+1. https://github.com/christeenavarghese
+2. https://github.com/HananHujaily
+3. https://github.com/Simprabh
+4. https://github.com/tengguna
+
+Special Thanks to our Professor for supervising us:
+Prof. Dr. Magda Gregorová
+
+
 # Minimum Requirements
 Disclaimer: Our group run this in Macbook Air M1 (2020), we occassionaly also run it in Windows 11 but there might be errors that we have not detect yet.
 1. Laptop with a built-in webcam of 720p.
@@ -22,7 +33,6 @@ python -m pip install caer
 python -m pip install cmake
 python -m pip install numpy
 python -m pip install pygame
-python -m pip install pyautogui
 python -m pip install matplotlib
 python -m pip install pandas
 python -m pip install dlib
@@ -73,13 +83,14 @@ Data.xlsx have its details of the columns already named in the Excel file itself
 # Future Works
 Possible future works for this project are as follows:
 1. Improving the accuracy of the eye tracking. 
-2. Possibly using new models that not require a very strict parameter for the head tracking. 
-3. Adding features such as stop buttons in the tracking and game part.
-4. Combining both the eye tracking part and the data processing part into one integrated part. 
-5. Adding website interface for better UX and UI. 
+2. Increase the sizes of the game area and tweak the range parameters for the counting of both game and eye tracking (left, center, right, up and down ranges)
+3. Possibly using new models that not require a very strict parameter for the head tracking. 
+4. Adding features such as stop buttons in the tracking and game part.
+5. Combining both the eye tracking part and the data processing part into one integrated part. 
+6. Adding website interface for better UX and UI. 
 
 # Noteable Resources
-We build this app based on several already established eye tracking and head tracking pipelines. Here are several resources that you might want to look into:
+We build this app based on several already established eye tracking and head tracking pipelines. If you are intrested with their works, please gave them a star. Here are several resources that you might want to look into:
 1. https://github.com/antoinelame/GazeTracking (Eye tracking)
 2. https://github.com/Doruk-Dilmen/Python-Gaze-estimation--Eye-tracking--using-single-low-cost-web-am-and-visualization-of-data (Eye Tracking)
 3. https://learnopencv.com/head-pose-estimation-using-opencv-and-dlib/ (Head Tracking)

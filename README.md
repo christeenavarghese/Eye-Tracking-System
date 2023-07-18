@@ -41,6 +41,9 @@ python -m pip install pysqlite3
 python -m pip install pillow
 python -m pip install requests
 python -m pip install openpyxl
+python -m pip install pyautogui
+python -m pip install seaborn
+python -m pip install pysdl2
 ```
 4. Press y and confirm when prompted
 5. Make sure that all the dependencies are installed properly
